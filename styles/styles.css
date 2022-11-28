@@ -439,8 +439,8 @@ span {
     }
     .section__music {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(5, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
     }
     .section__video {
         display: grid;
@@ -470,13 +470,16 @@ span {
     }
     .section__music {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(5, 1fr);
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(1, 1fr);
     }
     .section__video {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(1, 1fr);
         text-align: center;
+    }
+    .video{
+        height: 15rem;
     }
 }
